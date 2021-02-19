@@ -6,7 +6,7 @@ class App extends React.Component {
     componentDidMount = async () => {
         const response = await lambda.get('', {
             params: {
-              TableName: 'MyTable'
+              
             }
         });
     };
